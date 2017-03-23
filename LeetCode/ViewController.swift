@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UITableViewController {
     
-    let data = ["HammingDistance"]
+    let data = ["HammingDistance", "NumberComplement"]
     
 
     override func viewDidLoad() {

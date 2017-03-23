@@ -15,6 +15,7 @@
 		5F72B2551E80D796001EB764 /* LeetCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F72B2541E80D796001EB764 /* LeetCodeTests.swift */; };
 		5F72B2601E80D796001EB764 /* LeetCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F72B25F1E80D796001EB764 /* LeetCodeUITests.swift */; };
 		5F72B26F1E80D8E5001EB764 /* HammingDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F72B26E1E80D8E5001EB764 /* HammingDistance.swift */; };
+		5F72B2711E83789F001EB764 /* NumberComplement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F72B2701E83789F001EB764 /* NumberComplement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5F72B25F1E80D796001EB764 /* LeetCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeUITests.swift; sourceTree = "<group>"; };
 		5F72B2611E80D796001EB764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F72B26E1E80D8E5001EB764 /* HammingDistance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HammingDistance.swift; sourceTree = "<group>"; };
+		5F72B2701E83789F001EB764 /* NumberComplement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberComplement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				5F72B26E1E80D8E5001EB764 /* HammingDistance.swift */,
+				5F72B2701E83789F001EB764 /* NumberComplement.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			files = (
 				5F72B2421E80D796001EB764 /* ViewController.swift in Sources */,
 				5F72B2401E80D796001EB764 /* AppDelegate.swift in Sources */,
+				5F72B2711E83789F001EB764 /* NumberComplement.swift in Sources */,
 				5F72B26F1E80D8E5001EB764 /* HammingDistance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,6 +528,7 @@
 				5F72B2661E80D796001EB764 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F72B2671E80D796001EB764 /* Build configuration list for PBXNativeTarget "LeetCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +537,7 @@
 				5F72B2691E80D796001EB764 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F72B26A1E80D796001EB764 /* Build configuration list for PBXNativeTarget "LeetCodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +546,7 @@
 				5F72B26C1E80D796001EB764 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
